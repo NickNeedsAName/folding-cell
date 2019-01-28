@@ -139,7 +139,7 @@ open class FoldingCell: UITableViewCell {
         }
     }
     
-    func createAnimationView() {
+    open func createAnimationView() {
         animationView = UIView(frame: containerView.frame)
         animationView?.layer.cornerRadius = foregroundView.layer.cornerRadius
         animationView?.backgroundColor = .clear
